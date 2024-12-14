@@ -1,0 +1,9 @@
+#cloud-config
+users:
+  - default
+  - name: adeyemi
+    ssh_authorized_keys:
+      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCnZPjgigjJALvgxkoT/6HnpGqqBzwKpHdyLq13pVm91wNRqZY8DZTa0fstRCNvgnqnJO84zRh+RzzZa0TLHxvbn1dy4ijjQ1jd7G9Q7MVUN98/CDDIhKiPBqNGr6nTcVllY9UIMhMeOQLrIkmgo7r/GhGfRrPqQm76qLYWum8CsLyloUBPKbidgtYxo8pdYa1HdoDB9INqv28GNfAItQvryqAvgR7z8K26FOV3SKZvvDkly0WBRZBDJGV2r+axy+gP9Msot8T6WXXT4u4qAB+scipUhcXDmBYFlesI8xTABzAij4ZqBoacoWcWi2EkH8e/2UMH1wBMQ2erLhve48XRZOOoDQkJcW0wHYK/oPe0Oiqh9HiKr+B5e5rOCtdim9D6YLalLYetOWNp66MSdi7YbQNjgm66TmTKgrO9YKAm1ei/sm2CDDA0V1qS+GLrj72yIAu0kvcJPY8vItI2qfm1SrRll1eb3f8vwmD+EZ6+qS8z08W92mmMY+ZURNGeST8= juliophp@nikolay-phd 
+    sudo: ["ALL=(ALL) NOPASSWD:ALL"]
+    groups: sudo
+    shell: /bin/bash
