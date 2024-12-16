@@ -19,7 +19,7 @@ bridge-utils virtinst libvirt-daemon
 By default, virsh doesn't allow sudo permissions, so we must first make it possible
 for virsh to let us use the command without password. 
 To solve this problem, there are three things that need to be done:
-**1. Create a rule to allow using the libvirt command without supplying passwords**  
+1. **Create a rule to allow using the libvirt command without supplying passwords**  
   Create a file at `/etc/polkit-1/rules.d/50-libvirt.rules` and add the following content to it:
 
    ```bash
