@@ -92,5 +92,5 @@ python3 create.py --name controller --cpu 2 --memory 2048
 
  ## Removal or Delete Node
 ```bash
-python3 remove.py --name controller --cpu 2 --memory 2048
+python3 remove.py --name controller
 ```
