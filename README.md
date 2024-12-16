@@ -32,7 +32,7 @@ To solve this problem, there are three things that need to be done:
            return polkit.Result.YES;
        }
    });
-```
+   ```
  
 2. **Open the libvirt configuration file**  
 Uncomment the `uri_default` line. The path to the file is `/etc/libvirt/libvirt.conf`. Use the following command to modify the file:
